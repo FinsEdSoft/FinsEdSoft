@@ -44,16 +44,18 @@ function Apps() {
           />
           <div className="flex-1 ml-4">
             <h2 className="text-xl font-bold">KidsDays</h2>
-            <p>A free educational game that help kids learn english.</p>
+            <p>
+              A free educational game that help kids learn english.
+            </p>
             <div className="flex justify-end">
-            <a href="https://play.google.com/store/apps/details?id=com.finsedsoft.kidsmultiplayersimulator">
-            <Image
-              src={goolePlayBadge}
-              alt="Logo"
-              className="w-32 h-12  object-contain"
-            />
-            </a>
-          </div>
+              <a href="https://play.google.com/store/apps/details?id=com.finsedsoft.kidsmultiplayersimulator">
+                <Image
+                  src={goolePlayBadge}
+                  alt="Logo"
+                  className="w-32 h-12  object-contain"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>

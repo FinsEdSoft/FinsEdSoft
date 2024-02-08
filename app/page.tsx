@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <Hero title="Hello Traveller," subtitle1="Welcome to FinEdSoft!" subtitle2="Here we create content && software for " />
       <Apps />
-      {/* <Videos /> */}
+      <Videos />
       {/*<Blogs /> */}
       <Footer />
     </main>
