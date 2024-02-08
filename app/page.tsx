@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <Hero title="Hello Traveller," subtitle1="Welcome to FinEdSoft!" subtitle2="Here we create content && software for " />
+      <Hero title="Hello Visitor," subtitle1="Welcome to FinEdSoft!" subtitle2="Here we create content && software for " />
       <Apps />
       <Videos />
       {/*<Blogs /> */}
