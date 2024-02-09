@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "FinEdSoft - Financial Education & Software",
-  description: "FinEdSoft - Financial Education & Software",
+  title: "FinEdSoft - Financial, Education & Software",
+  description: "FinEdSoft - Financial, Education & Software",
 };
 
 export default function RootLayout({
