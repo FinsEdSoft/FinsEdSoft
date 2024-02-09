@@ -15,16 +15,16 @@ function Header() {
                         <a href="/" className="hover:text-gray-300">Home</a>
                     </li>
                     <li>
-                        <a href="/services" className="hover:text-gray-300">Apps</a>
+                        <a href="/" className="hover:text-gray-300">Apps</a>
                     </li>
                     <li>
-                        <a href="/videos" className="hover:text-gray-300">Videos</a>
+                        <a href="/" className="hover:text-gray-300">Videos</a>
                     </li>
                     <li>
-                        <a href="/blogs" className="hover:text-gray-300">Blogs</a>
+                        <a href="/" className="hover:text-gray-300">Blogs</a>
                     </li>
                     <li>
-                        <a href="/about" className="hover:text-gray-300">About</a>
+                        <a href="/" className="hover:text-gray-300">About</a>
                     </li>
                 </ul>
             </nav>
