@@ -10,7 +10,7 @@ function Videos() {
   }, []);
 
   const getVideos = () => {
-    const res = fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=PLJxAkr4GPnyW5bs33KAWKvPqlyrjYH5BV&key=AIzaSyDlN3PSYO8XFiqEbkgC6CKMwYsUDwJlxHc")
+    const res = fetch("https://youtube.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=PLJxAkr4GPnyW5bs33KAWKvPqlyrjYH5BV&key="+process.env.NEXT_PUBLIC_API_KEY)
     .then((res) => res.json())
     .then((data) => {
       setVideos(data.items);
