@@ -1,18 +1,18 @@
 import Apps from "@/components/Apps";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Videos from "@/components/Videos";
+import Blogs from "./blogs/page";
 
 export default function Home() {
   return (
     <main>
-      <Header />
       <Hero title="Hello Visitor," subtitle1="Welcome to FinEdSoft!" subtitle2="Here we create content && software for " />
       <Apps />
       <Videos />
-      {/*<Blogs /> */}
-      <Footer />
+      <section className="my-10">
+          <h2 className="text-3xl font-bold text-center ">Latest Articles</h2>
+          <Blogs showBackButton="false" />
+        </section>
     </main>
   );
 }
