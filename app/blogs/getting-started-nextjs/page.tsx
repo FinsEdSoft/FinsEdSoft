@@ -53,7 +53,7 @@ function BlogPost() {
         <p className="leading-relaxed">
           Next.js has become one of the most popular React frameworks for building modern web applications. 
           With the release of Next.js 15, developers can now leverage even more powerful features to create 
-          fast, scalable, and SEO-friendly applications. Whether you're a beginner or an experienced developer, 
+          fast, scalable, and SEO-friendly applications. Whether you&apos;re a beginner or an experienced developer, 
           this guide will walk you through the steps to get started with Next.js 15 and build your first project.
         </p>
 
@@ -117,7 +117,7 @@ export default function Home() {
 
         <h3 className="text-2xl font-semibold mt-8 mb-4">Step 5: Add Styling</h3>
         <p className="mb-4">
-          Next.js supports various styling options. Here's an example using CSS Modules:
+          Next.js supports various styling options. Here&apos;s an example using CSS Modules:
         </p>
         <pre className="bg-gray-50 p-4 rounded-lg border border-gray-200 overflow-x-auto">
           <code className="text-sm">{`// styles/Home.module.css

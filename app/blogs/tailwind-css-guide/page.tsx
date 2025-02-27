@@ -53,14 +53,14 @@ export default function TailwindGuide() {
                         Unlike other CSS frameworks that provide pre-designed components, Tailwind offers low-level utility classes that let you build completely custom designs.
                     </p>
                     <p className="mb-4">
-                        In this guide, we'll explore how to use Tailwind CSS effectively to build modern, responsive UIs for your web applications.
+                        In this guide, we&apos;ll explore how to use Tailwind CSS effectively to build modern, responsive UIs for your web applications.
                     </p>
                 </section>
 
                 <section className="mb-10">
                     <h2 className="text-3xl font-bold mb-4">Getting Started with Tailwind</h2>
                     <p className="mb-4">
-                        Setting up Tailwind CSS in your project is straightforward. With Next.js, it's even easier as Tailwind is supported out of the box.
+                        Setting up Tailwind CSS in your project is straightforward. With Next.js, it&apos;s even easier as Tailwind is supported out of the box.
                     </p>
                     <div className="bg-gray-100 p-4 rounded-md mb-6">
                         <pre className="overflow-x-auto">
@@ -96,7 +96,7 @@ export default function TailwindGuide() {
                 <section className="mb-10">
                     <h2 className="text-3xl font-bold mb-4">Building Components</h2>
                     <p className="mb-4">
-                        Let's build a simple card component using Tailwind CSS:
+                        Let&apos;s build a simple card component using Tailwind CSS:
                     </p>
                     <div className="bg-gray-100 p-4 rounded-md mb-6">
                         <pre className="overflow-x-auto">

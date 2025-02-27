@@ -19,7 +19,7 @@ const AboutPage = () => {
                     build real-world skills through high-quality educational content.
                 </p>
                 <p className="text-lg">
-                    Whether you're a beginner taking your first steps in coding or an experienced professional
+                    Whether you&apos;re a beginner taking your first steps in coding or an experienced professional
                     looking to expand your skillset, our diverse range of educational resources is designed to 
                     support your learning journey.
                 </p>
@@ -53,7 +53,7 @@ const AboutPage = () => {
                 <h2 className="text-3xl font-bold mb-6">Contact Us</h2>
                 <p className="text-lg mb-4">
                     Have questions about our educational content or interested in collaboration opportunities?
-                    We'd love to hear from you!
+                    We&apos;d love to hear from you!
                 </p>
                 <div className="bg-gray-50 p-6 rounded-lg">
                     <p className="mb-2"><strong>Email:</strong> finedsoft@gmail.com</p>

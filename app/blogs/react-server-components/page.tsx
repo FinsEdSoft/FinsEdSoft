@@ -50,7 +50,7 @@ function BlogPost() {
                 </span>
                 </div>
                     <h1 className="text-4xl font-bold mb-4">Understanding React Server Components in Next.js with Tailwind CSS</h1>
-                    <p>React Server Components (RSCs) are a groundbreaking feature that allows developers to build more efficient and performant web applications by rendering components on the server. When combined with Next.js and Tailwind CSS, you can create modern, fast, and visually appealing applications with ease. In this blog post, we'll dive into what React Server Components are, how they work in Next.js, and how to style them using Tailwind CSS.</p>
+                    <p>React Server Components (RSCs) are a groundbreaking feature that allows developers to build more efficient and performant web applications by rendering components on the server. When combined with Next.js and Tailwind CSS, you can create modern, fast, and visually appealing applications with ease. In this blog post, we&apos;ll dive into what React Server Components are, how they work in Next.js, and how to style them using Tailwind CSS.</p>
                     <hr className="my-8" />
                     <h2 className="text-3xl font-semibold mb-4">What Are React Server Components?</h2>
                     <p>React Server Components enable developers to render components on the server, reducing the amount of JavaScript sent to the client. This leads to faster page loads, improved performance, and better SEO. Unlike traditional React components, which are rendered on the client side, Server Components allow you to:</p>
@@ -69,7 +69,7 @@ function BlogPost() {
                     </ol>
                     <hr className="my-8" />
                     <h2 className="text-3xl font-semibold mb-4">Getting Started with React Server Components in Next.js</h2>
-                    <p>Let's walk through the steps to create a Next.js application with React Server Components and style it using Tailwind CSS.</p>
+                    <p>Let&apos;s walk through the steps to create a Next.js application with React Server Components and style it using Tailwind CSS.</p>
                     <hr className="my-8" />
                     <h3 className="text-2xl font-semibold mb-4">Step 1: Set Up a Next.js Project</h3>
                     <ol className="list-decimal list-inside mb-4">
@@ -102,7 +102,7 @@ module.exports = {
                     </ol>
                     <hr className="my-8" />
                     <h3 className="text-2xl font-semibold mb-4">Step 2: Create a React Server Component</h3>
-                    <p>In Next.js, Server Components are the default. Let's create a simple Server Component that fetches and displays data.</p>
+                    <p>In Next.js, Server Components are the default. Let&apos;s create a simple Server Component that fetches and displays data.</p>
                     <ol className="list-decimal list-inside mb-4">
                         <li>Create a new file <code>app/page.js</code>:
                             <pre><code>{`// app/page.js
@@ -132,11 +132,11 @@ export default async function Page() {
                         <li>Run the development server:
                             <pre><code>npm run dev</code></pre>
                         </li>
-                        <li>Open your browser and navigate to <code>http://localhost:3000</code>. You'll see a list of blog posts fetched from the API and styled with Tailwind CSS.</li>
+                        <li>Open your browser and navigate to <code>http://localhost:3000</code>. You&apos;ll see a list of blog posts fetched from the API and styled with Tailwind CSS.</li>
                     </ol>
                     <hr className="my-8" />
                     <h3 className="text-2xl font-semibold mb-4">Step 3: Combine Server and Client Components</h3>
-                    <p>While Server Components are great for rendering static content, you may need interactivity on the client side. Let's create a Client Component to handle user interactions.</p>
+                    <p>While Server Components are great for rendering static content, you may need interactivity on the client side. Let&apos;s create a Client Component to handle user interactions.</p>
                     <ol className="list-decimal list-inside mb-4">
                         <li>Create a new file <code>app/Counter.js</code>:
                             <pre><code>{`'use client'; // Mark this as a Client Component
