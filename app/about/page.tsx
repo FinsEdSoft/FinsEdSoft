@@ -3,8 +3,8 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'About FinEdSoft | Technology Education',
-    description: 'Learn about FinEdSoft, a leading education company creating apps, blogs, and videos to provide education about technology.',
+    title: 'About FinsEdSoft | Technology Education',
+    description: 'Learn about FinsEdSoft, a leading education company creating apps, blogs, and videos to provide education about technology.',
 };
 
 const AboutPage = () => {
@@ -14,7 +14,7 @@ const AboutPage = () => {
             <section className="mb-16">
                 <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
                 <p className="text-lg mb-4">
-                    At FinEdSoft, we believe that technology education should be accessible, engaging, and practical.
+                    At FinsEdSoft, we believe that technology education should be accessible, engaging, and practical.
                     Our mission is to demystify complex technology concepts and empower learners of all levels to 
                     build real-world skills through high-quality educational content.
                 </p>
@@ -56,9 +56,9 @@ const AboutPage = () => {
                     We&apos;d love to hear from you!
                 </p>
                 <div className="bg-gray-50 p-6 rounded-lg">
-                    <p className="mb-2"><strong>Email:</strong> finedsoft@gmail.com</p>
+                    <p className="mb-2"><strong>Email:</strong> finsedsoft@gmail.com</p>
                     <p className="mb-2"><strong>Location:</strong> Durgapur, WB, India</p>
-                    <p><strong>Social Media:</strong> @finedsoft</p>
+                    <p><strong>Social Media:</strong> @finsedsoft</p>
                 </div>
             </section>
         </main>

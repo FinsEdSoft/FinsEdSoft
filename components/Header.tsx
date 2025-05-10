@@ -9,15 +9,15 @@ function Header() {
                 <div className="relative w-10 h-10 transition-transform duration-300 hover:scale-110">
                     <Image src={logo} alt="Logo" fill className="object-contain" />
                 </div>
-                <h1 className="text-white font-bold text-xl tracking-tight">FinEdSoft</h1>
+                <h1 className="text-white font-bold text-xl tracking-tight">FinsEdSoft</h1>
             </div>
             <nav className="hidden md:block">
                 <ul className="flex space-x-6 text-white">
                     {[
                         {text:"Home", href: "/"}, 
                         {text:"Blogs", href: "/blogs"},
-                        {text:"Videos", href: "https://www.youtube.com/@FinEdSoft"},
-                        {text:"Apps", href: "https://play.google.com/store/apps/developer?id=FinEdSoft"},
+                        {text:"Videos", href: "https://www.youtube.com/@FinsEdSoft"},
+                        {text:"Apps", href: "https://play.google.com/store/apps/developer?id=FinsEdSoft"},
                         {text:"About", href: "/about"}
                     ].map((item, index) => (
                         <li key={index}>

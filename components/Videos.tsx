@@ -24,7 +24,7 @@ function Videos() {
     <div className="bg-gray-50 min-h-screen">
       <div className="text-white px-6 py-4 bg-[#0f3755] shadow-md flex justify-between items-center">
         <h1 className="text-3xl font-bold">Videos</h1>
-        <a href="https://www.youtube.com/@FinEdSoft" target="_blank" className="bg-white text-[#0f3755] px-4 py-2 rounded-md hover:bg-opacity-90 transition-all font-medium flex items-center gap-2">
+        <a href="https://www.youtube.com/@FinsEdSoft" target="_blank" className="bg-white text-[#0f3755] px-4 py-2 rounded-md hover:bg-opacity-90 transition-all font-medium flex items-center gap-2">
           View All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
           </svg>

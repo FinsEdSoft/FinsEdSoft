@@ -6,7 +6,7 @@ import Blogs from "./blogs/page";
 export default function Home() {
   return (
     <main>
-      <Hero title="Hello Visitor," subtitle1="Welcome to FinEdSoft!" subtitle2="Here we create content && software for " />
+      <Hero title="Hi," subtitle1="Welcome to FinsEdSoft!" subtitle2="Here we create content && software for " />
       <Apps />
       <Videos />
       <section className="my-10">

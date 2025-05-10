@@ -7,8 +7,8 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "FinEdSoft - Financial, Education & Software",
-  description: "FinEdSoft - Financial, Education & Software",
+  title: "FinsEdSoft - Financial, Education & Software",
+  description: "FinsEdSoft - Financial, Education & Software",
 };
 
 export default function RootLayout({

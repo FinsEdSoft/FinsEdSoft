@@ -13,20 +13,20 @@ function Footer() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p className="text-sm md:text-base font-medium">&copy; 2025 FinEdSoft. All rights reserved.</p>
+            <p className="text-sm md:text-base font-medium">&copy; 2025 FinsEdSoft. All rights reserved.</p>
           </div>
           
           <div className="flex space-x-6"></div>
-            <a href="https://www.youtube.com/@FinEdSoft" target="_blank" rel="noreferrer" className="transform hover:scale-110 transition-transform duration-300">
+            <a href="https://www.youtube.com/@FinsEdSoft" target="_blank" rel="noreferrer" className="transform hover:scale-110 transition-transform duration-300">
               <Image src={youtube} alt="YouTube" className="w-6 h-6 hover:opacity-80" />
             </a>
             <a href="https://twitter.com/PurnenduMondal_" target="_blank" rel="noreferrer" className="transform hover:scale-110 transition-transform duration-300">
               <Image src={x} alt="Twitter" className="w-6 h-6 hover:opacity-80" />
             </a>
-            <a href="https://github.com/finedsoft" target="_blank" rel="noreferrer" className="transform hover:scale-110 transition-transform duration-300">
+            <a href="https://github.com/finsedsoft" target="_blank" rel="noreferrer" className="transform hover:scale-110 transition-transform duration-300">
               <Image src={github} alt="GitHub" className="w-6 h-6 hover:opacity-80" />
             </a>
-            <a href="https://www.instagram.com/finedsoft" target="_blank" rel="noreferrer" className="transform hover:scale-110 transition-transform duration-300">
+            <a href="https://www.instagram.com/finsedsoft" target="_blank" rel="noreferrer" className="transform hover:scale-110 transition-transform duration-300">
               <Image src={instagram} alt="Instagram" className="w-6 h-6 hover:opacity-80" />
             </a>
           </div>
