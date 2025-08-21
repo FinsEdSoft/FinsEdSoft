@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import styles from './terms-and-conditions.module.css';
 

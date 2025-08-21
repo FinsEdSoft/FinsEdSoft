@@ -1,18 +1,19 @@
+'use client'
 import React from 'react';
 import styles from './privacy-policy.module.css';
 
 export default function PrivacyPolicy() {
     return (
-        <div className="content">
-            <h1>Privacy Policy</h1>
-            <div className="last-updated">Last Updated: Aug 21, 2025</div>
+        <div className={styles.container}>
+            <h1>Privacy Policy: BreakThrough</h1>
+            <div className={styles.lastUpdated}>Last Updated: Aug 21, 2025</div>
             
-            <div className="section">
+            <div className={styles.section}>
                 <p>Welcome to BreakThrough ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our application.</p>
                 <p>Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the application.</p>
             </div>
             
-            <div className="section">
+            <div className={styles.section}>
                 <h2>Information We Collect</h2>
                 <p>We may collect information about you in various ways when you use our application:</p>
                 <ul>
@@ -22,7 +23,7 @@ export default function PrivacyPolicy() {
                 </ul>
             </div>
             
-            <div className="section">
+            <div className={styles.section}>
                 <h2>How We Use Your Information</h2>
                 <p>We may use the information we collect for various purposes, including to:</p>
                 <ul>
@@ -36,7 +37,7 @@ export default function PrivacyPolicy() {
                 </ul>
             </div>
             
-            <div className="section">
+            <div className={styles.section}>
                 <h2>Disclosure of Your Information</h2>
                 <p>We may disclose your personal information in the following situations:</p>
                 <ul>
@@ -47,12 +48,12 @@ export default function PrivacyPolicy() {
                 </ul>
             </div>
             
-            <div className="section">
+            <div className={styles.section}>
                 <h2>Security of Your Information</h2>
                 <p>The security of your information is important to us, but remember that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security.</p>
             </div>
             
-            <div className="section">
+            <div className={styles.section}>
                 <h2>Your Data Protection Rights</h2>
                 <p>Depending on your location, you may have certain rights regarding your personal information:</p>
                 <ul>
@@ -65,50 +66,22 @@ export default function PrivacyPolicy() {
                 </ul>
             </div>
             
-            <div className="section">
+            <div className={styles.section}>
                 <h2>Children&apos;s Privacy</h2>
                 <p>Our application is not intended for use by children under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If we discover that a child under 13 has provided us with personal information, we will immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us.</p>
             </div>
             
-            <div className="section">
+            <div className={styles.section}>
                 <h2>Changes to This Privacy Policy</h2>
                 <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the &quot;Last Updated&quot; date at the top of this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
             </div>
             
-            <div className="section">
+            <div className={styles.section}>
                 <h2>Contact Us</h2>
                 <p>If you have any questions about this Privacy Policy, please contact us at:</p>
                 <p>Email: finsedsoft@gmail.com</p>
                 <p>Address: Durgapur, West Bengal 713213, India</p>
             </div>
-            
-            <style jsx>{`
-                .content {
-                    font-family: Arial, sans-serif;
-                    line-height: 1.6;
-                    max-width: 800px;
-                    margin: 0 auto;
-                    padding: 20px;
-                    color: #333;
-                }
-                h1 {
-                    color: #2c3e50;
-                    border-bottom: 2px solid #3498db;
-                    padding-bottom: 10px;
-                }
-                h2 {
-                    color: #2c3e50;
-                    margin-top: 20px;
-                }
-                .last-updated {
-                    font-style: italic;
-                    color: #7f8c8d;
-                    margin-bottom: 20px;
-                }
-                .section {
-                    margin-bottom: 30px;
-                }
-            `}</style>
         </div>
     );
 }
