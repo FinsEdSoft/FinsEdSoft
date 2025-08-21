@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
             <div className={styles.lastUpdated}>Last Updated: Aug 21, 2025</div>
             
             <div className={styles.section}>
-                <p>Welcome to BreakThrough ("we," "our," or "us"). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our application.</p>
+                <p>Welcome to BreakThrough (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our application.</p>
                 <p>Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the application.</p>
             </div>
             

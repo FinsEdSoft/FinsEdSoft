@@ -32,7 +32,7 @@ export default function TermsAndConditions() {
             <p>All content, features, and functionality of the BreakThrough application, including but not limited to text, graphics, logos, and software, are owned by BreakThrough and are protected by intellectual property laws.</p>
             
             <h2>6. Disclaimers</h2>
-            <p>The application is provided "as is" without warranties of any kind, either express or implied. We do not warrant that the application will be error-free or uninterrupted.</p>
+            <p>The application is provided &quot;as is&quot; without warranties of any kind, either express or implied. We do not warrant that the application will be error-free or uninterrupted.</p>
             
             <h2>7. Limitation of Liability</h2>
             <p>In no event shall BreakThrough be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the application.</p>
